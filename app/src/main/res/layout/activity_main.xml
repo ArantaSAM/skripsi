@@ -27,7 +27,7 @@
         android:orientation="vertical">
 
         <Button
-            android:id="@+id/Uji"
+            android:id="@+id/uji"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
@@ -44,10 +44,10 @@
             android:text="Layanan Konsultasi"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/Uji" />
+            app:layout_constraintTop_toBottomOf="@+id/uji" />
 
         <Button
-            android:id="@+id/Tentang"
+            android:id="@+id/tentang"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"

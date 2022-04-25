@@ -24,5 +24,18 @@ class MainActivity : AppCompatActivity() {
             intent.putExtra("Gangguan",it)
             startActivity(intent)
         }
+        uji.setOnClickListener {
+            val intent = Intent (this, Uji::class.java)
+            startActivity(intent)
+        }
+
+        layanan.setOnClickListener {
+            val intent = Intent (this, Layanan::class.java)
+            startActivity(intent)
+        }
+        tentang.setOnClickListener {
+            val intent = Intent (this, Tentang::class.java)
+            startActivity(intent)
+        }
     }
 }

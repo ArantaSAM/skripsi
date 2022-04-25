@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Skripsi2">
         <activity
+            android:name=".Tentang"
+            android:exported="false" />
+        <activity
+            android:name=".Uji"
+            android:exported="false" />
+        <activity
+            android:name=".Layanan"
+            android:exported="false" />
+        <activity
             android:name=".DetailGangguanActivity"
             android:exported="false" />
         <activity
