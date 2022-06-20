@@ -37,7 +37,8 @@
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent">
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:id="@+id/radiogrup1">
 
                     <RadioButton
                         android:id="@+id/RBYa"
@@ -79,6 +80,7 @@
                 android:layout_height="wrap_content">
 
                 <RadioGroup
+                    android:id="@+id/radiogrup2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
@@ -127,6 +129,7 @@
                 android:layout_height="wrap_content">
 
                 <RadioGroup
+                    android:id="@+id/radiogrup3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
@@ -175,6 +178,7 @@
                 android:layout_height="wrap_content">
 
                 <RadioGroup
+                    android:id="@+id/radiogrup4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
@@ -223,6 +227,7 @@
                 android:layout_height="wrap_content">
 
                 <RadioGroup
+                    android:id="@+id/radiogrup5"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
@@ -271,6 +276,7 @@
                 android:layout_height="wrap_content">
 
                 <RadioGroup
+                    android:id="@+id/radiogrup6"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
@@ -319,6 +325,7 @@
                 android:layout_height="wrap_content">
 
                 <RadioGroup
+                    android:id="@+id/radiogrup7"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
@@ -367,6 +374,7 @@
                 android:layout_height="wrap_content">
 
                 <RadioGroup
+                    android:id="@+id/radiogrup8"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
@@ -416,6 +424,7 @@
                 android:layout_height="wrap_content">
 
                 <RadioGroup
+                    android:id="@+id/radiogrup9"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
@@ -464,6 +473,7 @@
                 android:layout_height="wrap_content">
 
                 <RadioGroup
+                    android:id="@+id/radiogrup10"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
@@ -512,6 +522,7 @@
                 android:layout_height="wrap_content">
 
                 <RadioGroup
+                    android:id="@+id/radiogrup11"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
@@ -560,6 +571,7 @@
                 android:layout_height="wrap_content">
 
                 <RadioGroup
+                    android:id="@+id/radiogrup12"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
