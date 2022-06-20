@@ -1,11 +1,11 @@
 package com.example.skripsi2
 
-import androidx.appcompat.app.AppCompatActivity
-import android.os.Bundle
+import android.os.Parcelable
+import kotlinx.android.parcel.Parcelize
 
-class Layanan : AppCompatActivity() {
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_layanan)
-    }
-}
+@Parcelize
+data class Layanan(
+    var nama: String = "",
+    var url:String = "",
+    var gambar:Int
+) : Parcelable
