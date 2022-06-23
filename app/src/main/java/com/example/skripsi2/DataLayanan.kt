@@ -8,14 +8,14 @@ object DataLayanan {
             list.add(
                 Layanan(
                     nama = "Layanan",
-                    url = "https://www.alodokter.com/Layanan-kecemasan-sosial",
+                    url = "",
                     gambar = R.drawable.fobiasosial
                 )
             )
             list.add(
                 Layanan(
                     nama = "Layanan",
-                    url = "https://www.alodokter.com/kenali-tiga-jenis-Layanan-kecemasan-dan-gejalanya",
+                    url = "",
                     gambar = R.drawable.gad
                 )
             )
