@@ -1,4 +1,4 @@
-package com.example.skripsi2
+package com.example.skripsi2.Activity
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.widget.LinearLayout
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.example.skripsi2.*
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -20,7 +21,7 @@ class MainActivity : AppCompatActivity() {
         RvList.addItemDecoration(DividerItemDecoration(this,LinearLayout.HORIZONTAL))
 
         adapter.onItemClickListerner={
-            val intent = Intent(this,DetailGangguanActivity::class.java)
+            val intent = Intent(this, DetailGangguanActivity::class.java)
             intent.putExtra("Gangguan",it)
             startActivity(intent)
         }

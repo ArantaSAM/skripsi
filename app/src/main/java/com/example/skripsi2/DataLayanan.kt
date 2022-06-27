@@ -7,27 +7,18 @@ object DataLayanan {
 
             list.add(
                 Layanan(
-                    nama = "Layanan",
-                    url = "",
-                    gambar = R.drawable.fobiasosial
+                    nama = "Ibunda",
+                    url = "ibunda.id",
+                    gambar =
                 )
             )
             list.add(
                 Layanan(
-                    nama = "Layanan",
-                    url = "",
-                    gambar = R.drawable.gad
+                    nama = "Satu Persen",
+                    url = "satupersen.net",
+                    gambar =
                 )
             )
-
-            list.add(
-                Layanan(
-                    nama = "Layanan",
-                    url = "",
-                    gambar = R.drawable.panik
-                )
-            )
-
             return list
         }
 }
