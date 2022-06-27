@@ -7,6 +7,8 @@ import android.widget.LinearLayout
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.skripsi2.*
+import com.example.skripsi2.Adapter.GangguanAdapter
+import com.example.skripsi2.Data.DataGangguan
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -26,16 +28,16 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
         uji.setOnClickListener {
-            val intent = Intent (this, Uji::class.java)
+            val intent = Intent (this, UjiActivity::class.java)
             startActivity(intent)
         }
 
         layanan.setOnClickListener {
-            val intent = Intent (this, Layanan::class.java)
+            val intent = Intent (this, LayananActivity::class.java)
             startActivity(intent)
         }
         tentang.setOnClickListener {
-            val intent = Intent (this, Tentang::class.java)
+            val intent = Intent (this, TentangActivity::class.java)
             startActivity(intent)
         }
     }

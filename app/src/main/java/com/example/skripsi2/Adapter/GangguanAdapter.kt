@@ -1,9 +1,11 @@
-package com.example.skripsi2
+package com.example.skripsi2.Adapter
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.example.skripsi2.Model.Gangguan
+import com.example.skripsi2.R
 import kotlinx.android.synthetic.main.item_gangguan.view.*
 
 class GangguanAdapter(val list: List<Gangguan>) :

@@ -1,6 +1,6 @@
-package com.example.skripsi2
+package com.example.skripsi2.Data
 
-import com.example.skripsi2.Gangguan
+import com.example.skripsi2.Model.Gangguan
 import com.example.skripsi2.R
 
 object DataGangguan {

@@ -10,13 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Skripsi2">
         <activity
-            android:name=".Tentang"
+            android:name=".Activity.LayananActivity"
             android:exported="false" />
         <activity
-            android:name=".Uji"
+            android:name=".Activity.TentangActivity"
             android:exported="false" />
         <activity
-            android:name=".Layanan"
+            android:name=".Activity.UjiActivity"
             android:exported="false" />
         <activity
             android:name=".Activity.DetailGangguanActivity"

@@ -2,7 +2,7 @@ package com.example.skripsi2.Activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.skripsi2.Gangguan
+import com.example.skripsi2.Model.Gangguan
 import com.example.skripsi2.R
 import kotlinx.android.synthetic.main.activity_detail_gangguan.*
 

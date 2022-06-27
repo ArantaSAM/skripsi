@@ -1,4 +1,7 @@
-package com.example.skripsi2
+package com.example.skripsi2.Data
+
+import com.example.skripsi2.Model.Layanan
+import com.example.skripsi2.R
 
 object DataLayanan {
     val list: ArrayList<Layanan>
@@ -9,14 +12,14 @@ object DataLayanan {
                 Layanan(
                     nama = "Ibunda",
                     url = "ibunda.id",
-                    gambar =
+                    gambar = R.drawable.ibunda
                 )
             )
             list.add(
                 Layanan(
                     nama = "Satu Persen",
                     url = "satupersen.net",
-                    gambar =
+                    gambar = R.drawable.satupersen
                 )
             )
             return list
