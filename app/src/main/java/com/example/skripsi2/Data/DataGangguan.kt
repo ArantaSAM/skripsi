@@ -45,12 +45,11 @@ object DataGangguan {
                             "- Sering merasa lelah\n" +
                             "- Sesak napas\n" +
                             "- Sering ingin buang air kecil\n" +
-                            "-Tidak nafsu makan",
+                            "- Tidak nafsu makan",
                     url = "https://www.alodokter.com/kenali-tiga-jenis-gangguan-kecemasan-dan-gejalanya",
                     gambar = R.drawable.gad
                 )
             )
-
             list.add(
                 Gangguan(
                     nama = "Gangguan Panik",

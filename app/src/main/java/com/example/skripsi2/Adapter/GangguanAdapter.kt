@@ -28,7 +28,7 @@ class GangguanAdapter(val list: List<Gangguan>) :
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-        val gangguan = list.get(position)
+        val gangguan = list[position]
         holder.bind(gangguan)
         holder.itemView.setOnClickListener{
             onItemClickListerner?.let { it1 -> it1(gangguan) }

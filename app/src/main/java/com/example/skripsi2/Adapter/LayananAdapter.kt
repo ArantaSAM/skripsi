@@ -8,6 +8,9 @@ import com.example.skripsi2.Model.Gangguan
 import com.example.skripsi2.Model.Layanan
 import com.example.skripsi2.R
 import kotlinx.android.synthetic.main.item_gangguan.view.*
+import kotlinx.android.synthetic.main.item_gangguan.view.item_gambar
+import kotlinx.android.synthetic.main.item_gangguan.view.item_nama
+import kotlinx.android.synthetic.main.item_layanan.view.*
 
 class LayananAdapter (val list: List<Layanan>) :
     RecyclerView.Adapter<LayananAdapter.ViewHolder>() {
@@ -18,6 +21,7 @@ class LayananAdapter (val list: List<Layanan>) :
             with(itemView) {
                 item_gambar.setImageResource(layanan.gambar)
                 item_nama.text = layanan.nama
+                item_url.text = layanan.url
             }
         }
     }
