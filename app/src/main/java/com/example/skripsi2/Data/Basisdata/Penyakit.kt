@@ -1,4 +1,4 @@
-package com.example.skripsi2.Data
+package com.example.skripsi2.Data.Basisdata
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
@@ -11,5 +11,4 @@ data class Penyakit(
     val det_penyakit: String,
     val sm_penyakit: String,
     val gambar: Int
-
 )

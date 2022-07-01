@@ -1,4 +1,4 @@
-package com.example.skripsi2.Data
+package com.example.skripsi2.Data.Basisdata
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
