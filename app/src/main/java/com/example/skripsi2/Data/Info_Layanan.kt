@@ -7,8 +7,6 @@ import kotlinx.android.parcel.Parcelize
 
 @Parcelize
 data class Info_Layanan(
-    @PrimaryKey (autoGenerate = true)
-    val id: Int,
     var nama: String = "",
     var url:String = "",
     var gambar:Int
