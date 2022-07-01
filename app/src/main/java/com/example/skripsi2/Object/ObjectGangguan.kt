@@ -1,15 +1,15 @@
-package com.example.skripsi2.Data
+package com.example.skripsi2.Object
 
-import com.example.skripsi2.Model.Gangguan
+import com.example.skripsi2.Data.Info_Gangguan
 import com.example.skripsi2.R
 
-object DataGangguan {
-    val list: ArrayList<Gangguan>
+object ObjectGangguan {
+    val list: ArrayList<Info_Gangguan>
         get() {
-            val list: ArrayList<Gangguan> = arrayListOf()
+            val list: ArrayList<Info_Gangguan> = arrayListOf()
 
             list.add(
-                Gangguan(
+                Info_Gangguan(
                     nama = "Gangguan Fobia Sosial",
                     keterangan = "Gangguan kecemasan sosial atau fobia sosial merupakan rasa cemas atau takut yang luar biasa terhadap situasi sosial atau interaksi dengan orang lain, baik sebelum, sesudah, maupun selama berada dalam situasi tersebut.\n" +
                             "\n" +
@@ -28,7 +28,7 @@ object DataGangguan {
                 )
             )
             list.add(
-                Gangguan(
+                Info_Gangguan(
                     nama = "Gangguan Kecemasan Menyeluruh",
                     keterangan = "Jenis gangguan kecemasan ini membuat penderitanya merasakan cemas secara berlebihan yang menetap dalam waktu lama, biasanya hingga lebih dari 6 bulan. Penderita GAD akan sangat mengkhawatirkan banyak hal, misalnya keuangan, kesehatan, atau pekerjaan.\n" +
                             "\n" +
@@ -51,7 +51,7 @@ object DataGangguan {
                 )
             )
             list.add(
-                Gangguan(
+                Info_Gangguan(
                     nama = "Gangguan Panik",
                     keterangan = "Penderita gangguan panik akan mengalami serangan panik secara tiba-tiba dan berulang kali tanpa alasan yang jelas. Frekuensi dan tingkat keparahannya pun bervariasi. " +
                             "Berikut ini adalah beberapa gejala yang dapat muncul saat terjadi gangguan panik:\n" +

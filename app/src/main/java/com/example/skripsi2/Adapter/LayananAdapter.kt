@@ -4,24 +4,20 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.skripsi2.Model.Gangguan
-import com.example.skripsi2.Model.Layanan
+import com.example.skripsi2.Data.Info_Layanan
 import com.example.skripsi2.R
-import kotlinx.android.synthetic.main.item_gangguan.view.*
 import kotlinx.android.synthetic.main.item_gangguan.view.item_gambar
-import kotlinx.android.synthetic.main.item_gangguan.view.item_nama
 import kotlinx.android.synthetic.main.item_layanan.view.*
 
-class LayananAdapter (val list: List<Layanan>) :
+class LayananAdapter (val list: List<Info_Layanan>) :
     RecyclerView.Adapter<LayananAdapter.ViewHolder>() {
-    var onItemClickListerner: ((Layanan) -> Unit)? = null
+    var onItemClickListerner: ((Info_Layanan) -> Unit)? = null
 
     class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-        fun bind(layanan: Layanan) {
+        fun bind(infoLayanan: Info_Layanan) {
             with(itemView) {
-                item_gambar.setImageResource(layanan.gambar)
-                item_nama.text = layanan.nama
-                item_url.text = layanan.url
+                item_gambar.setImageResource(infoLayanan.gambar)
+                item_url.text = infoLayanan.url
             }
         }
     }

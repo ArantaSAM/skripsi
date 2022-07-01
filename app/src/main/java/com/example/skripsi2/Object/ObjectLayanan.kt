@@ -1,22 +1,22 @@
-package com.example.skripsi2.Data
+package com.example.skripsi2.Object
 
-import com.example.skripsi2.Model.Layanan
+import com.example.skripsi2.Data.Info_Layanan
 import com.example.skripsi2.R
 
-object DataLayanan {
-    val list: ArrayList<Layanan>
+object ObjectLayanan {
+    val list: ArrayList<Info_Layanan>
         get() {
-            val list: ArrayList<Layanan> = arrayListOf()
+            val list: ArrayList<Info_Layanan> = arrayListOf()
 
             list.add(
-                Layanan(
+                Info_Layanan(
                     nama = "Ibunda",
                     url = "ibunda.id",
                     gambar = R.drawable.ibunda
                 )
             )
             list.add(
-                Layanan(
+                Info_Layanan(
                     nama = "Satu Persen",
                     url = "satupersen.net",
                     gambar = R.drawable.satupersen

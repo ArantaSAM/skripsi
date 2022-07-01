@@ -4,19 +4,19 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.skripsi2.Model.Gangguan
+import com.example.skripsi2.Data.Info_Gangguan
 import com.example.skripsi2.R
 import kotlinx.android.synthetic.main.item_gangguan.view.*
 
-class GangguanAdapter(val list: List<Gangguan>) :
+class GangguanAdapter(val list: List<Info_Gangguan>) :
     RecyclerView.Adapter<GangguanAdapter.ViewHolder>() {
-    var onItemClickListerner: ((Gangguan) -> Unit)? = null
+    var onItemClickListerner: ((Info_Gangguan) -> Unit)? = null
 
     class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-        fun bind(gangguan: Gangguan) {
+        fun bind(infoGangguan: Info_Gangguan) {
             with(itemView) {
-                item_gambar.setImageResource(gangguan.gambar)
-                item_nama.text = gangguan.nama
+                item_gambar.setImageResource(infoGangguan.gambar)
+                item_nama.text = infoGangguan.nama
             }
         }
     }

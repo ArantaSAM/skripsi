@@ -15,8 +15,8 @@
 
         <ImageView
             android:id="@+id/item_gambar"
-            android:layout_width="342dp"
-            android:layout_height="542dp"
+            android:layout_width="333dp"
+            android:layout_height="455dp"
             android:layout_margin="10dp"
             android:paddingLeft="5dp"
             android:paddingRight="5dp"
