@@ -15,8 +15,8 @@ class AdminViewModel(application: Application): AndroidViewModel(application) {
     private val repository: AdminRepos
 
     init {
-        val userDao = SPDatabase.getDatabase(application).adminDao()
-        repository = AdminRepos(userDao)
+        val adminDao = SPDatabase.getDatabase(application).adminDao()
+        repository = AdminRepos(adminDao)
         readAllData = repository.readAllData
     }
 
