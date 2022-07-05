@@ -5,11 +5,9 @@ import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
 import com.example.skripsi2.Data.Basisdata.*
-import com.example.skripsi2.Interface.AdminDao
 
 @Database(
     entities = [
-        Admin::class,
         Basis_Pengetahuan::class,
         Gejala::class,
         Hasil::class,
@@ -19,7 +17,6 @@ import com.example.skripsi2.Interface.AdminDao
     exportSchema = false
 )
 abstract class SPDatabase : RoomDatabase() {
-    abstract fun adminDao(): AdminDao
 
     companion object {
         @Volatile

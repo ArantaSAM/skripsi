@@ -9,6 +9,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Skripsi2">
         <activity
+            android:name=".Activity.PenyakitActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.PengetahuanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.GejalaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.MenuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.LoginActivity"
+            android:exported="false" />
+        <activity
             android:name=".Activity.LayananActivity"
             android:exported="false" />
         <activity

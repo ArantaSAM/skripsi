@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/penyakit_nav"
+    app:startDestination="@id/listPenyakitFragment">
+
+    <fragment
+        android:id="@+id/addPenyakitFragment"
+        android:name="com.example.skripsi2.fragment.add.AddPenyakitFragment"
+        android:label="fragment_add_penyakit"
+        tools:layout="@layout/fragment_add_penyakit" >
+        <action
+            android:id="@+id/action_addPenyakitFragment_to_listPenyakitFragment"
+            app:destination="@id/listPenyakitFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/listPenyakitFragment"
+        android:name="com.example.skripsi2.fragment.list.ListPenyakitFragment"
+        android:label="fragment_list_penyakit"
+        tools:layout="@layout/fragment_list_penyakit" >
+        <action
+            android:id="@+id/action_listPenyakitFragment_to_addPenyakitFragment"
+            app:destination="@id/addPenyakitFragment" />
+    </fragment>
+</navigation>

@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ListGejalaFragment">
+    tools:context=".fragment.list.ListGejalaFragment">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView

@@ -1,4 +1,4 @@
-package com.example.skripsi2.fragment
+package com.example.skripsi2.fragment.add
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -6,14 +6,14 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.example.skripsi2.R
+class AddPenyakitFragment : Fragment() {
 
-
-class PageDBFragment : Fragment() {
-       override fun onCreateView(
+    override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_page_d_b, container, false)
+        return inflater.inflate(R.layout.fragment_add_penyakit, container, false)
     }
+
 }

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/pengetahuan_nav"
+    app:startDestination="@id/listPengetahuanFragment">
+
+    <fragment
+        android:id="@+id/listPengetahuanFragment"
+        android:name="com.example.skripsi2.fragment.list.ListPengetahuanFragment"
+        android:label="fragment_list_pengetahuan"
+        tools:layout="@layout/fragment_list_pengetahuan" >
+        <action
+            android:id="@+id/action_listPengetahuanFragment_to_addPengetahuanFragment"
+            app:destination="@id/addPengetahuanFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addPengetahuanFragment"
+        android:name="com.example.skripsi2.fragment.add.AddPengetahuanFragment"
+        android:label="fragment_add_pengetahuan"
+        tools:layout="@layout/fragment_add_pengetahuan" >
+        <action
+            android:id="@+id/action_addPengetahuanFragment_to_listPengetahuanFragment"
+            app:destination="@id/listPengetahuanFragment" />
+    </fragment>
+</navigation>

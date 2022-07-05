@@ -1,4 +1,4 @@
-package com.example.skripsi2.fragment
+package com.example.skripsi2.fragment.list
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -16,6 +16,4 @@ class ListGejalaFragment : Fragment() {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_list_gejala, container, false)
     }
-
-
 }
