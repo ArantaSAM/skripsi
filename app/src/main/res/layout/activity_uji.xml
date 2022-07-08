@@ -38,7 +38,7 @@
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    android:id="@+id/radiogrup1">
+                    android:id="@+id/RGrup1">
 
                     <RadioButton
                         android:id="@+id/RBYa"
@@ -80,7 +80,7 @@
                 android:layout_height="wrap_content">
 
                 <RadioGroup
-                    android:id="@+id/radiogrup2"
+                    android:id="@+id/RGrup2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
@@ -129,7 +129,7 @@
                 android:layout_height="wrap_content">
 
                 <RadioGroup
-                    android:id="@+id/radiogrup3"
+                    android:id="@+id/RGrup3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
@@ -178,7 +178,7 @@
                 android:layout_height="wrap_content">
 
                 <RadioGroup
-                    android:id="@+id/radiogrup4"
+                    android:id="@+id/RGrup4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
@@ -227,7 +227,7 @@
                 android:layout_height="wrap_content">
 
                 <RadioGroup
-                    android:id="@+id/radiogrup5"
+                    android:id="@+id/RGrup5"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
@@ -276,7 +276,7 @@
                 android:layout_height="wrap_content">
 
                 <RadioGroup
-                    android:id="@+id/radiogrup6"
+                    android:id="@+id/RGrup6"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
@@ -325,7 +325,7 @@
                 android:layout_height="wrap_content">
 
                 <RadioGroup
-                    android:id="@+id/radiogrup7"
+                    android:id="@+id/RGrup7"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
@@ -374,7 +374,7 @@
                 android:layout_height="wrap_content">
 
                 <RadioGroup
-                    android:id="@+id/radiogrup8"
+                    android:id="@+id/RGrup8"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
@@ -424,7 +424,7 @@
                 android:layout_height="wrap_content">
 
                 <RadioGroup
-                    android:id="@+id/radiogrup9"
+                    android:id="@+id/RGrup9"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
@@ -473,7 +473,7 @@
                 android:layout_height="wrap_content">
 
                 <RadioGroup
-                    android:id="@+id/radiogrup10"
+                    android:id="@+id/RGrup10"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
@@ -522,7 +522,7 @@
                 android:layout_height="wrap_content">
 
                 <RadioGroup
-                    android:id="@+id/radiogrup11"
+                    android:id="@+id/RGrup11"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
@@ -571,7 +571,7 @@
                 android:layout_height="wrap_content">
 
                 <RadioGroup
-                    android:id="@+id/radiogrup12"
+                    android:id="@+id/RGrup12"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
@@ -610,8 +610,644 @@
                 </RadioGroup>
             </androidx.constraintlayout.widget.ConstraintLayout>
 
+            <CheckBox
+                android:id="@+id/gejala13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Question3" />
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioGroup
+                    android:id="@+id/RGrup13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <RadioButton
+                        android:id="@+id/RBYa13"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp"
+                        android:text="Ya" />
+
+                    <RadioButton
+                        android:id="@+id/RBCukupYakin13"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp"
+                        android:text="Cukup Yakin" />
+
+                    <RadioButton
+                        android:id="@+id/RBRaguRagu13"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp"
+                        android:text="Ragu-Ragu" />
+
+                    <RadioButton
+                        android:id="@+id/RBTidak13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:padding="5dp"
+                        android:text="Tidak" />
+                </RadioGroup>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <CheckBox
+                android:id="@+id/gejala14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Question14" />
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioGroup
+                    android:id="@+id/RGrup14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <RadioButton
+                        android:id="@+id/RBYa14"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp"
+                        android:text="Ya" />
+
+                    <RadioButton
+                        android:id="@+id/RBCukupYakin14"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp"
+                        android:text="Cukup Yakin" />
+
+                    <RadioButton
+                        android:id="@+id/RBRaguRagu14"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp"
+                        android:text="Ragu-Ragu" />
+
+                    <RadioButton
+                        android:id="@+id/RBTidak14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:padding="5dp"
+                        android:text="Tidak" />
+                </RadioGroup>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <CheckBox
+                android:id="@+id/gejala15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Question15" />
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioGroup
+                    android:id="@+id/RGrup15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <RadioButton
+                        android:id="@+id/RBYa15"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp"
+                        android:text="Ya" />
+
+                    <RadioButton
+                        android:id="@+id/RBCukupYakin15"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp"
+                        android:text="Cukup Yakin" />
+
+                    <RadioButton
+                        android:id="@+id/RBRaguRagu15"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp"
+                        android:text="Ragu-Ragu" />
+
+                    <RadioButton
+                        android:id="@+id/RBTidak15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:padding="5dp"
+                        android:text="Tidak" />
+                </RadioGroup>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <CheckBox
+                android:id="@+id/gejala16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Question16" />
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioGroup
+                    android:id="@+id/RGrup16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <RadioButton
+                        android:id="@+id/RBYa16"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp"
+                        android:text="Ya" />
+
+                    <RadioButton
+                        android:id="@+id/RBCukupYakin16"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp"
+                        android:text="Cukup Yakin" />
+
+                    <RadioButton
+                        android:id="@+id/RBRaguRagu16"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp"
+                        android:text="Ragu-Ragu" />
+
+                    <RadioButton
+                        android:id="@+id/RBTidak16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:padding="5dp"
+                        android:text="Tidak" />
+                </RadioGroup>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <CheckBox
+                android:id="@+id/gejala17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Question17" />
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioGroup
+                    android:id="@+id/RGrup17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <RadioButton
+                        android:id="@+id/RBYa17"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp"
+                        android:text="Ya" />
+
+                    <RadioButton
+                        android:id="@+id/RBCukupYakin17"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp"
+                        android:text="Cukup Yakin" />
+
+                    <RadioButton
+                        android:id="@+id/RBRaguRagu17"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp"
+                        android:text="Ragu-Ragu" />
+
+                    <RadioButton
+                        android:id="@+id/RBTidak17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:padding="5dp"
+                        android:text="Tidak" />
+                </RadioGroup>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <CheckBox
+                android:id="@+id/gejala18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Question18" />
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioGroup
+                    android:id="@+id/RGrup18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <RadioButton
+                        android:id="@+id/RBYa18"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp"
+                        android:text="Ya" />
+
+                    <RadioButton
+                        android:id="@+id/RBCukupYakin18"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp"
+                        android:text="Cukup Yakin" />
+
+                    <RadioButton
+                        android:id="@+id/RBRaguRagu18"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp"
+                        android:text="Ragu-Ragu" />
+
+                    <RadioButton
+                        android:id="@+id/RBTidak18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:padding="5dp"
+                        android:text="Tidak" />
+                </RadioGroup>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            <CheckBox
+                android:id="@+id/gejala19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Question19" />
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioGroup
+                    android:id="@+id/RGrup19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <RadioButton
+                        android:id="@+id/RBYa19"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp"
+                        android:text="Ya" />
+
+                    <RadioButton
+                        android:id="@+id/RBCukupYakin19"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp"
+                        android:text="Cukup Yakin" />
+
+                    <RadioButton
+                        android:id="@+id/RBRaguRagu19"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp"
+                        android:text="Ragu-Ragu" />
+
+                    <RadioButton
+                        android:id="@+id/RBTidak19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:padding="5dp"
+                        android:text="Tidak" />
+                </RadioGroup>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <CheckBox
+                android:id="@+id/gejala20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Question20" />
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioGroup
+                    android:id="@+id/RGrup20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <RadioButton
+                        android:id="@+id/RBYa20"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp"
+                        android:text="Ya" />
+
+                    <RadioButton
+                        android:id="@+id/RBCukupYakin20"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp"
+                        android:text="Cukup Yakin" />
+
+                    <RadioButton
+                        android:id="@+id/RBRaguRagu20"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp"
+                        android:text="Ragu-Ragu" />
+
+                    <RadioButton
+                        android:id="@+id/RBTidak20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:padding="5dp"
+                        android:text="Tidak" />
+                </RadioGroup>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <CheckBox
+                android:id="@+id/gejala21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Question21" />
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioGroup
+                    android:id="@+id/RGrup21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <RadioButton
+                        android:id="@+id/RBYa21"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp"
+                        android:text="Ya" />
+
+                    <RadioButton
+                        android:id="@+id/RBCukupYakin21"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp"
+                        android:text="Cukup Yakin" />
+
+                    <RadioButton
+                        android:id="@+id/RBRaguRagu21"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp"
+                        android:text="Ragu-Ragu" />
+
+                    <RadioButton
+                        android:id="@+id/RBTidak21"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:padding="5dp"
+                        android:text="Tidak" />
+                </RadioGroup>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <CheckBox
+                android:id="@+id/gejala22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Question22" />
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioGroup
+                    android:id="@+id/RGrup22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <RadioButton
+                        android:id="@+id/RBYa22"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp"
+                        android:text="Ya" />
+
+                    <RadioButton
+                        android:id="@+id/RBCukupYakin22"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp"
+                        android:text="Cukup Yakin" />
+
+                    <RadioButton
+                        android:id="@+id/RBRaguRagu22"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp"
+                        android:text="Ragu-Ragu" />
+
+                    <RadioButton
+                        android:id="@+id/RBTidak22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:padding="5dp"
+                        android:text="Tidak" />
+                </RadioGroup>
+            </androidx.constraintlayout.widget.ConstraintLayout> <CheckBox
+            android:id="@+id/gejala23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Question23" />
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioGroup
+                    android:id="@+id/RGrup23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <RadioButton
+                        android:id="@+id/RBYa23"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp"
+                        android:text="Ya" />
+
+                    <RadioButton
+                        android:id="@+id/RBCukupYakin23"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp"
+                        android:text="Cukup Yakin" />
+
+                    <RadioButton
+                        android:id="@+id/RBRaguRagu23"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp"
+                        android:text="Ragu-Ragu" />
+
+                    <RadioButton
+                        android:id="@+id/RBTidak23"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:padding="5dp"
+                        android:text="Tidak" />
+                </RadioGroup>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <CheckBox
+                android:id="@+id/gejala24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Question24" />
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioGroup
+                    android:id="@+id/RGrup24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <RadioButton
+                        android:id="@+id/RBYa24"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp"
+                        android:text="Ya" />
+
+                    <RadioButton
+                        android:id="@+id/RBCukupYakin24"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp"
+                        android:text="Cukup Yakin" />
+
+                    <RadioButton
+                        android:id="@+id/RBRaguRagu24"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp"
+                        android:text="Ragu-Ragu" />
+
+                    <RadioButton
+                        android:id="@+id/RBTidak24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:padding="5dp"
+                        android:text="Tidak" />
+                </RadioGroup>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <CheckBox
+                android:id="@+id/gejala25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Question25" />
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioGroup
+                    android:id="@+id/RGrup25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <RadioButton
+                        android:id="@+id/RBYa25"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp"
+                        android:text="Ya" />
+
+                    <RadioButton
+                        android:id="@+id/RBCukupYakin25"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp"
+                        android:text="Cukup Yakin" />
+
+                    <RadioButton
+                        android:id="@+id/RBRaguRagu25"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp"
+                        android:text="Ragu-Ragu" />
+
+                    <RadioButton
+                        android:id="@+id/RBTidak25"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:padding="5dp"
+                        android:text="Tidak" />
+                </RadioGroup>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
             <TextView
-                android:id="@+id/hasilview"
+                android:id="@+id/tingkatview"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
@@ -624,7 +1260,7 @@
                 android:gravity="center_horizontal" />
 
             <TextView
-                android:id="@+id/tingkatview"
+                android:id="@+id/hasilview"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
