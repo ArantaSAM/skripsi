@@ -7,7 +7,4 @@ import androidx.room.PrimaryKey
 data class Penyakit(
     @PrimaryKey(autoGenerate = true) val kd_penyakit: Int,
     val nama_penyakit: String,
-    val det_penyakit: String,
-    val sm_penyakit: String,
-    val gambar: Int
 )

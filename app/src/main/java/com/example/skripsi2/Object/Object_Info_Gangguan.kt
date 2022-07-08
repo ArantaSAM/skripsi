@@ -3,7 +3,7 @@ package com.example.skripsi2.Object
 import com.example.skripsi2.Data.Info_Gangguan
 import com.example.skripsi2.R
 
-object ObjectGangguan {
+object Object_Info_Gangguan {
     val list: ArrayList<Info_Gangguan>
         get() {
             val list: ArrayList<Info_Gangguan> = arrayListOf()

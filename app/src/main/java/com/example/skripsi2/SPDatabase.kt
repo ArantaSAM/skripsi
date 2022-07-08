@@ -8,10 +8,7 @@ import com.example.skripsi2.Data.Basisdata.*
 
 @Database(
     entities = [
-        Basis_Pengetahuan::class,
         Gejala::class,
-        Hasil::class,
-        Kondisi::class,
         Penyakit::class],
     version = 1,
     exportSchema = false

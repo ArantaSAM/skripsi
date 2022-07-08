@@ -8,7 +8,7 @@ import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.skripsi2.*
 import com.example.skripsi2.Adapter.GangguanAdapter
-import com.example.skripsi2.Object.ObjectGangguan
+import com.example.skripsi2.Object.Object_Info_Gangguan
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         RvList.layoutManager = LinearLayoutManager(this,LinearLayoutManager.HORIZONTAL,false)
-        val list = ObjectGangguan.list
+        val list = Object_Info_Gangguan.list
         val adapter = GangguanAdapter(list)
         RvList.adapter = adapter
         RvList.addItemDecoration(DividerItemDecoration(this,LinearLayout.HORIZONTAL))
